@@ -914,7 +914,7 @@
 
         /* SININHO DE NOTIFICACOES - le o avisos.json do GitHub */
         (function sinoAvisos() {
-            const URL_AVISOS = 'https://raw.githubusercontent.com/bielsshdropnet-ai/www.dropnet.com/main/avisos.json';
+            const URL_AVISOS = 'avisos.json';
             const btn = document.getElementById('btnSino');
             const badge = document.getElementById('sinoBadge');
             const painel = document.getElementById('painelAvisos');
