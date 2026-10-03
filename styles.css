@@ -1133,7 +1133,7 @@
         /* SININHO DE NOTIFICAÇÕES */
         .btn-sino {
             position: fixed;
-            top: 25px;
+            bottom: 20px;
             right: 15px;
             width: 48px;
             height: 48px;
@@ -1178,7 +1178,7 @@
 
         .painel-avisos {
             position: fixed;
-            top: 85px;
+            bottom: 82px;
             right: 15px;
             left: 15px;
             max-width: 360px;
@@ -1205,5 +1205,5 @@
 
         @media (max-width:380px) {
             .btn-sino { width: 42px; height: 42px; font-size: 18px; }
-            .painel-avisos { top: 80px; }
+            .painel-avisos { bottom: 76px; }
         }
